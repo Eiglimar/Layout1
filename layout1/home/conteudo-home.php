@@ -40,7 +40,7 @@
 	<div class="row" id="featuresHeading">
 		<div class="col-sm-12">
 			<h2 class="page-header">Recursos</h2>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat cum assumenda, rerum deleniti qui, est quas dolorem officia consequuntur. Excepturi numquam error mollitia voluptatibus totam quas fugiat, sed dolorum maiores.</p>
+			<p class="lead">Lorem ipsum color sit amet, consectetur adipisicing elit. Repellat cum assumenda, rerum deleniti qui, est quas dolorem officia consequuntur. Excepturi numquam error mollitia voluptatibus totam quas fugiat, sed dolorum maiores.</p>
 		</div>
 	</div>
 
