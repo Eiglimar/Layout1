@@ -14,7 +14,7 @@
 	<?php include('conteudo-home.php'); ?>
 	<?php include('../includes/rodape.php'); ?>
 
-<a href="#" class="voltarTopo" onclick="$j('html,body').animate({scrollTop: $j('#voltarTopo').offset().top}, 2000);">Topo</a>
+<input type="button" class="voltarTopo"  name="Voltar_Topo" value="Topo" onclick="$j('html,body').animate({scrollTop: $j('#voltarTopo').offset().top}, 2000);">
 <script src="../js/jquery.js" type="text/javascript"></script>
 <script src="../js/bootstrap.js" type="text/javascript"></script>
 <script src="../js/plugins/slide-comeca-automaticamente.js" type="text/javascript"></script>
