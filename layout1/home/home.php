@@ -8,13 +8,13 @@
     <link href="../css/customizar.css" rel="stylesheet">
 	<title>Home - Site Base</title>
 </head>
-<body  id="corpo-position">
+<body  id="corpo-position voltarTopo">
 	<?php include('../includes/identificador-paginas.php'); ?>
 	<?php include('../includes/topo.php'); ?>
 	<?php include('conteudo-home.php'); ?>
 	<?php include('../includes/rodape.php'); ?>
 
-<a href="#" id="toTop">Para /\</a>
+<a href="#" class="voltarTopo" onclick="$j('html,body').animate({scrollTop: $j('#voltarTopo').offset().top}, 2000);">Topo</a>
 <script src="../js/jquery.js" type="text/javascript"></script>
 <script src="../js/bootstrap.js" type="text/javascript"></script>
 <script src="../js/plugins/slide-comeca-automaticamente.js" type="text/javascript"></script>
@@ -26,11 +26,23 @@
     $("#video-exemplo").fitVids();
   });
 </script>
-<script type='text/javascript'>
-$(function(){$.fn.scrollToTop=function(){$(this).hide().removeAttr(&quot;href&quot;);if($(window).scrollTop()!=&quot;0&quot;){$(this).fadeIn(&quot;slow&quot;)}var   scrollDiv=$(this);$(window).scroll(function(){if($(window).scrollTop()==&quot;0&quot;){$(scrollDiv).fadeOut(&quot;slow&quot;)}else{$(scrollDiv).fadeIn(&quot;slow&quot;)}});$(this).click(function(){$(&quot;html,  body&quot;).animate({scrollTop:0},&quot;slow&quot;)})}}); 
-  $(function() {    
-    $(&quot;#toTop&quot;).scrollToTop();     
-  });     
+<script type="text/javascript">
+// Use jQuery com a variavel $j(...)
+var $j = jQuery.noConflict();
+$j(document).ready(function() {
+$j(".voltarTopo").hide();
+$j(function () {
+$j(window).scroll(function () {
+if ($j(this).scrollTop() > 300) {
+$j('.voltarTopo').fadeIn();
+} else {
+$j('.voltarTopo').fadeOut();
+}
+});
+$j('.voltarTopo').click(function() {
+$j('body,html').animate({scrollTop:0},600);
+}); 
+    });});
 </script>
 
 </body>

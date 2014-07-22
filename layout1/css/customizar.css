@@ -12,23 +12,20 @@ body
 }
 
 /*<-========== Botao voltar para cima ==========->*/
-#toTop
+.voltarTopo 
 {
-    width:50px;  /* Largura do botão * /
-    border:1px solid #000; /* Cor e tipo da borda */
-    text-align:center; /* Alinhamento do texto */
-    padding:5px; /* Distancia entre texto e borda */
-    position:fixed; /* Posição que faz com que ele corra por toda a página*/
-    bottom:5px; 
-    right:5px;
-    cursor:pointer;
-    color:#eee; /* Cor da fonte do botão */
-    text-decoration:none;
-    font-weight:700;  /* Define o negrito da fonte */
-    -moz-border-radius:5px;  /* Definições para o ângulo do botão */
-    -khtml-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
+    background: none repeat scroll 0 0 #000000 !important;
+    bottom: 20px !important;
+    color: #FFFFFF;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 100px;
+    position: fixed;
+    right: 30px;
+    text-transform: uppercase;
+    width: 120px;
 }
 
 
