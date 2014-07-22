@@ -11,6 +11,27 @@ body
 	height:100%;
 }
 
+/*<-========== Botao voltar para cima ==========->*/
+#toTop
+{
+    width:50px;  /* Largura do botão * /
+    border:1px solid #000; /* Cor e tipo da borda */
+    text-align:center; /* Alinhamento do texto */
+    padding:5px; /* Distancia entre texto e borda */
+    position:fixed; /* Posição que faz com que ele corra por toda a página*/
+    bottom:5px; 
+    right:5px;
+    cursor:pointer;
+    color:#eee; /* Cor da fonte do botão */
+    text-decoration:none;
+    font-weight:700;  /* Define o negrito da fonte */
+    -moz-border-radius:5px;  /* Definições para o ângulo do botão */
+    -khtml-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+
 /*<-========== Altura do body de acordo com o uso do fixed  do menu =========->*/	
 .corpo-position
 {
@@ -37,6 +58,7 @@ body
   line-height: 20px;
   height: 50px;
 }
+
 .navbar-imagem img
 {
    opacity:1;

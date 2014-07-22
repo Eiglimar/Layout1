@@ -14,6 +14,7 @@
 	<?php include('conteudo-home.php'); ?>
 	<?php include('../includes/rodape.php'); ?>
 
+<a href="#" id="toTop">Para /\</a>
 <script src="../js/jquery.js" type="text/javascript"></script>
 <script src="../js/bootstrap.js" type="text/javascript"></script>
 <script src="../js/plugins/slide-comeca-automaticamente.js" type="text/javascript"></script>
@@ -25,5 +26,12 @@
     $("#video-exemplo").fitVids();
   });
 </script>
+<script type='text/javascript'>
+$(function(){$.fn.scrollToTop=function(){$(this).hide().removeAttr(&quot;href&quot;);if($(window).scrollTop()!=&quot;0&quot;){$(this).fadeIn(&quot;slow&quot;)}var   scrollDiv=$(this);$(window).scroll(function(){if($(window).scrollTop()==&quot;0&quot;){$(scrollDiv).fadeOut(&quot;slow&quot;)}else{$(scrollDiv).fadeIn(&quot;slow&quot;)}});$(this).click(function(){$(&quot;html,  body&quot;).animate({scrollTop:0},&quot;slow&quot;)})}}); 
+  $(function() {    
+    $(&quot;#toTop&quot;).scrollToTop();     
+  });     
+</script>
+
 </body>
 </html>
