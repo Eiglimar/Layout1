@@ -1,0 +1,136 @@
+
+/*<-========== Reseta posicionamento ==========->*/
+*
+{
+	margin:0px;
+	padding:0px;
+}
+/*<-========== Deixar 100% height no body posibilita o funcionamento correto quando for usar height:100%; no site ==========->*/
+body
+{
+	height:100%;
+}
+
+/*<-========== Altura do body de acordo com o uso do fixed  do menu =========->*/	
+.corpo-position
+{
+	margin: 180px -10px 0px;
+}
+
+.corpo-position-2
+{
+	margin: 0px -10px 0px;
+}
+
+/*<-=========Altura da imagem do Features(Recursos) =========->*/
+.feature-img img
+{
+	margin:0px 0px 20px;
+}
+
+/*<-==========  ALTERAR LOGO NO MENU RESPONSIVO ==========->*/
+.navbar-imagem{
+  float: left;
+  width: 250px;
+  height:125px;
+  padding: 10px 0px;
+  line-height: 20px;
+  height: 50px;
+}
+.navbar-imagem img
+{
+   opacity:1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.navbar-imagem img:hover
+{
+    opacity: 0.5;
+}
+
+
+/*<-========== POSIÇÃO DO MENU ==========->*/
+.menu-ul
+{
+	position: relative;
+	/*border:1px solid #000;*/
+	margin:98px 0px 0px;
+}
+
+/* <-========== ALTERAÇÕES DO MENU MOBILE - TABLET E CELULARES ===========-> */
+@media (max-width: 767px) {
+		
+	.navbar-default {
+	  background-color: #f8f8f8;
+	  border-top: 3px solid white;
+	  border-bottom: 3px solid white;
+	}
+
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+	  color: #333;
+	  background-color: transparent;
+	  border-left:5px solid #f62c2c;
+	  border-bottom: 5px solid #f8f8f8;
+	}
+
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+		color:#333;
+		background-color:transparent;
+		border-left:5px solid #f62c2c;
+		border-bottom: 5px solid #f8f8f8;
+	}
+
+	/*itens do menu customizados por Eiglimar*/
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		color: #333333;
+		background-color: transparent;
+		border-left: 5px solid #f62c2c;
+		border-bottom: 5px solid #f8f8f8;
+	}
+	/*itens do menu dropdown customizados por Eiglimar*/
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+		color: #333;
+		background-color: transparent;
+		border-left: 5px solid #f62c2c;
+		border-bottom: 5px solid #f8f8f8;
+	}
+}
+
+/*<--=========== altura do texto e botoes do slide==========-->*/
+.carousel-caption-altura
+{
+	margin: 0px 0px 20px;
+}
+/* <-========== ALTERAÇÕES DO RODAPÉ ==========->*/
+footer
+{
+	background-color: #333;
+	color:#eee;
+	font-size: 11px;
+	padding: 20px;
+	bottom: 0;
+}
+
+.listas-sem-bolinha-rodape
+{
+	list-style: none;
+	padding: 0px;
+}
+
+.dev-inlogica-rodape
+{
+	margin: 10px 0px 0px;
+}
+@media (max-width: 767px) {
+	.dev-inlogica-rodape
+	{
+		margin: 0px 10px 0px;
+	}	
+}
