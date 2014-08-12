@@ -1,14 +1,13 @@
 $(document).ready(function(){
-   var tam = $(window).width();
  
-   if (tam >= 768 )
+   if ($(window).width() >768 )
    {
-      $("#corpo-position").addClass("corpo-position");
-      $("#vertical-menu").addClass("navbar-fixed-top"); 
+      $("body").addClass("corpo-position-2");
+       $('#vertical-menu').addClass("navbar-fixed-top");
    }
-   else
+   else if ($(window).width() <= 768 )
    {
-      $("#corpo-position").addClass("corpo-position-2");
-      $("#vertical-menu").addClass("navbar-static-top"); 
+      $('body').addClass('corpo-position');
+      $('#vertical-menu').addClass('navbar-static-top'); 
    }
 });  

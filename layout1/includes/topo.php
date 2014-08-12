@@ -1,12 +1,11 @@
-<!-- inciio menu-->
-	<div class="navbar navbar-default" id="vertical-menu">
+<!-- incio menu-->
+	<nav class="navbar navbar-default" id="vertical-menu">
 		
 		<!-- conteudo do menu-->
 		<div class="container">
 			
 			<!-- logo marca--> 
 			<a href="../home/" class="navbar-imagem">
-				<img src="../img/EXEMPLOS/PRETO&TRANSPARENTE/logo8.png" alt="inlogica">
 			</a>
 			<!-- logo marca--> 
 			
@@ -40,6 +39,7 @@
 
 					<li <?php if($paginaCorrente == 'sobre.php') {echo 'class="active"';} ?>><a href="../sobre/">About</a></li>
 					<li <?php if($paginaCorrente == 'contato.php') {echo 'class="active"';} ?>><a href="#contato" data-toggle="modal">Contato</a></li>
+					<li <?php if($paginaCorrente == 'noticias.php') {echo 'class="active"';} ?>><a href="../noticias/">Notícias</a></li>
 				</ul>
 			</div>
 			<!-- itens do menu a direita-->
@@ -47,5 +47,5 @@
 		</div>
 		<!-- conteudo do menu-->
 
-	</div>
+	</nav>
 	<!-- final menu-->

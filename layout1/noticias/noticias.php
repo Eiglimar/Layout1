@@ -7,12 +7,12 @@
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/customizar.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-	<title>Sobre - Site Base</title>
+	<title>Notícias - Site Base</title>
 </head>
 <body>
 	<?php include('../includes/identificador-paginas.php'); ?>
 	<?php include('../includes/topo.php'); ?>
-	<?php include('conteudo-sobre.php') ?>
+	<?php include('conteudo-noticias.php') ?>
 	<?php include('../includes/rodape.php'); ?>
 
 <script src="../js/jquery.js" type="text/javascript"></script>

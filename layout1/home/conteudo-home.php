@@ -121,8 +121,7 @@
 						<h4 class='list-group-item-heading'>Third Item</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing quisquam dolorem ipsumelit...<small> - 14/07/2014 - 18:23</small></p>
 					</a>
-				</div>
-								
+				</div>		
 		</div>
 	</div>
 	<!--===========Fim Texto de Exemplo===========-->
