@@ -1,4 +1,4 @@
-<div id="myCarousel" class="carousel slide" data-rider="carousel"><!-- If this doesn't work, paste this data-rider="carousel" after "carousel"-->
+<div id="myCarousel" class="carousel slide altura_slide" data-rider="carousel"><!-- If this doesn't work, paste this data-rider="carousel" after "carousel"-->
         <!--Indicators-->
         <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

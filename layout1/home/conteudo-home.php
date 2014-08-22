@@ -3,40 +3,13 @@
 <div class="container conteudo-home" id="video-exemplo">
 	
 	<div class="row">
-	<!--======== Inicio Slide ========-->
-	<?php include('../includes/slide.php'); ?>
-	<!--======== Fim Slide ========-->
+			<!--======== Inicio Slide ========-->
+			<?php include('../includes/slide.php'); ?>
+			<!--======== Fim Slide ========-->
 	</div>
-	
-	<!--===========Incio Texto de Exemplo===========-->
-	<div class="row">
-		<div class="col-sm-6">
-			<h1 class="page-header">Vídeo de exemplo</h1>
-			<p>
-				<iframe src="//player.vimeo.com/video/98945437?color=00f09c" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-			</p>
-			<p><a href="http://vimeo.com/98945437">The Dumplings - Technicolor Yawn</a> from <a href="http://vimeo.com/mrmama">mrmama.tv</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-		</div>
-
-		<div class="col-sm-6">
-			<h1 class="page-header">Vídeo de exemplo 2</h1>
-			<p>
-				<iframe width="500" height="281" src="//www.youtube.com/embed/LD8CMb2Gv44" frameborder="0" allowfullscreen></iframe>
-			</p>
-			<p><a href="http://www.youtube.com/embed/LD8CMb2Gv44">Delivery</a> from <a href="http://www.youtube.com/channel/UCczHlv3XxDEisWu0oLYopoQ">Shrek SFM</a> on <a href="https://youtube.com.br">Youtube</a>.</p>
-		</div>
-		
-	</div>
-	<!--===========Fim Texto de Exemplo===========-->
 
 	<!--===========Incio Features(recursos)===========-->
-	<div class="row" id="featuresHeading">
-		<div class="col-sm-12">
-			<h2 class="page-header">Recursos</h2>
-			<p class="lead">Lorem ipsum color sit amet, consectetur adipisicing elit. Repellat cum assumenda, rerum deleniti qui, est quas dolorem officia consequuntur. Excepturi numquam error mollitia voluptatibus totam quas fugiat, sed dolorum maiores.</p>
-		</div>
-	</div>
-
+	
 	<div class="row" id="features">
 		
 		<div class="col-sm-4 feature-img text-center">
@@ -77,6 +50,13 @@
 				</div><!-- fim panel-body -->
 			</div><!-- fim panel -->
 		</div><!-- fim col-sm-4-feature-->
+
+	<div class="row" id="featuresHeading">
+		<div class="col-sm-12">
+			<h2 class="page-header">Recursos</h2>
+			<p class="lead">Lorem ipsum color sit amet, consectetur adipisicing elit. Repellat cum assumenda, rerum deleniti qui, est quas dolorem officia consequuntur. Excepturi numquam error mollitia voluptatibus totam quas fugiat, sed dolorum maiores.</p>
+		</div>
+	</div>
 
 	</div><!-- fim row-features -->
 	<!--===========Fim Features(recursos)===========-->
@@ -123,6 +103,11 @@
 					</a>
 				</div>		
 		</div>
+	</div>
+	<div class="row">
+		<a href='#' class='going-top'>
+			<span class='glyphicon glyphicon-chevron-up'></span>
+		</a>
 	</div>
 	<!--===========Fim Texto de Exemplo===========-->
 </div>

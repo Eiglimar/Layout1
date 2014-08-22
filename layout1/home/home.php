@@ -9,7 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<title>Home - Site Base</title>
 </head>
-<body>
+<body class='corpo-position'>
 	<?php include('../includes/identificador-paginas.php'); ?>
 	<?php include('../includes/topo.php'); ?>
 	<?php include('conteudo-home.php'); ?>
@@ -19,13 +19,15 @@
 <script src="../js/bootstrap.js" type="text/javascript"></script>
 <script src="../js/plugins/slide-comeca-automaticamente.js" type="text/javascript"></script>
 <script src="../js/plugins/fitvids.js" type="text/javascript"></script>
-<script src="../js/plugins/vertical-menu.js" type="text/javascript"></script>
-<script>
+<!-- <script src="../js/plugins/vertical-menu.js" type="text/javascript"></script>-->
+<!--<script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     $("#video-exemplo").fitVids();
   });
-</script>
-
+</script>-->
+<script src="../js/plugins/going_top.js" type="text/javascript" ></script>
+<script src="../js/plugins/modernzi.js" type="text/javascript" ></script>
+<script src="../js/plugins/verifica-tamanho-tela.js" type="text/javascript" ></script>
 </body>
 </html>

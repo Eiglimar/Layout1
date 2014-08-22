@@ -17,6 +17,6 @@
 
 <script src="../js/jquery.js" type="text/javascript"></script>
 <script src="../js/bootstrap.js" type="text/javascript"></script>
-<script src="../js/plugins/vertical-menu.js" type="text/javascript"></script>
+<script src="../js/plugins/verifica-tamanho-tela.js" type="text/javascript" ></script>
 </body>
 </html>
